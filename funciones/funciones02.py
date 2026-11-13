@@ -1,5 +1,5 @@
 import random
-import fibonacci
+import bucles.fibonacci as fibonacci
 
 
 n_aleatorio = random.randint(1, 10)
