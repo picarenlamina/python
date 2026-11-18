@@ -1,5 +1,5 @@
 # Return multiple values from a function
-def calculate_stats(numbers):
+def estadisticas(numbers):
     """Return multiple statistics about a list of numbers"""
     if not numbers:
         return None, None, None  # Handle empty list
