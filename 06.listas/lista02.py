@@ -1,4 +1,5 @@
-import random
+# Escribe un programa que rellene una lista con 10 numeros con append. El programa debe determinar el elemento maximo de la lista
+# import random
 
 lista = []
 

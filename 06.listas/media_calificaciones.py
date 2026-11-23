@@ -1,3 +1,5 @@
+# Disenar programa que permita obtener calificaciones de asignaturas y obtenga asignaturas con calificaciones maximas y minimas.
+
 subjects = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 scores = []
 for subject in subjects:

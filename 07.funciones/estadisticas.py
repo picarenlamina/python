@@ -1,6 +1,5 @@
-# Return multiple values from a function
+# Diseña programa para calcular con una funcion valores estadisticos de media y maximo 
 def estadisticas(numbers):
-    """Return multiple statistics about a list of numbers"""
     if not numbers:
         return None, None, None  # Handle empty list
     

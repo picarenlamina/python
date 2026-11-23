@@ -1,3 +1,4 @@
+# programa  con funcion fibonacci
 import random
 
 # Calcula el término n de la sucesión de Fibonacci.

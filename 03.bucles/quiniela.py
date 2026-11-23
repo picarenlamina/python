@@ -1,3 +1,4 @@
+#Generar quiniela 
 import random
 
 for i in range( 1, 15):
