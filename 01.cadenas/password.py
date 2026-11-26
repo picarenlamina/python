@@ -1,4 +1,3 @@
-```python
 password = input("Introduce una contraseña: ")
 
 especiales = "?¿@#$%&"
@@ -18,7 +17,3 @@ if len(password) >= 8 and tiene_especial and tiene_mayuscula:
     print("Contraseña válida.")
 else:
     print("Contraseña inválida. Debe tener al menos 8 caracteres, una mayúscula y un carácter especial (?¿@#$%&).")
-
-```
-
-*Nota: `.find()` devuelve `-1` cuando no encuentra el carácter en la cadena, por lo que comprobar `!= -1` equivale a confirmar que sí está.*
