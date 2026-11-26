@@ -1,8 +1,24 @@
-# obten numero de caracteres sin espacios y palabras
-texto = input("Escribe una frase: ")
+```python
+password = input("Introduce una contraseña: ")
 
-num_palabras = len(texto.split())
-caracteres_sin_espacios = len(texto.replace(" ", ""))
+especiales = "?¿@#$%&"
+tiene_especial = False
+tiene_mayuscula = False
 
-print(f"Palabras: {num_palabras}")
-print(f"Caracteres (sin espacios): {caracteres_sin_espacios}")
+for i in range(len(password)):
+    letra = password[i]
+    
+    if especiales.find(letra) != -1:
+        tiene_especial = True
+        
+    if letra.isupper():
+        tiene_mayuscula = True
+
+if len(password) >= 8 and tiene_especial and tiene_mayuscula:
+    print("Contraseña válida.")
+else:
+    print("Contraseña inválida. Debe tener al menos 8 caracteres, una mayúscula y un carácter especial (?¿@#$%&).")
+
+```
+
+*Nota: `.find()` devuelve `-1` cuando no encuentra el carácter en la cadena, por lo que comprobar `!= -1` equivale a confirmar que sí está.*
