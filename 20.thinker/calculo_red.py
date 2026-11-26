@@ -1,7 +1,6 @@
 import ipaddress
 import tkinter as tk
 from tkinter import messagebox
-
 # ==========================================
 # 1. MODELO (Lógica de redes y validación)
 # ==========================================
